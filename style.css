@@ -1,0 +1,548 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Reset-end */
+
+/*------------ Header section start------------- */
+
+header {
+    padding: 0 90px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo {
+    width: 67px;
+}
+
+.right-header {
+    display: flex;
+
+}
+
+.right-header .navbar {
+
+    width: 670px;
+    height: 130px;
+}
+
+.right-header .navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+}
+
+.right-header .navbar ul a {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.right-header .navbar {
+    margin-left: 30px;
+}
+
+.icon-nav {
+    width: 160px;
+}
+
+.icon-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+}
+
+/*------------ Header section end------------- */
+
+/*------------ Hero section start------------- */
+
+.hero-section img {
+    width: 100%;
+}
+
+.hero-section .hero-info {
+    width: 545px;
+
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 74px;
+    transform: translateY(-50%);
+
+}
+
+.hero-section .hero-info h4 {
+    font-size: 23px;
+}
+
+.hero-section .hero-info h1 {
+    font-size: 67px;
+    font-weight: 200;
+    line-height: 85px;
+}
+
+.hero-section .hero-info h3 {
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.hero-section .hero-info .cta-btn {
+    background-color: #1c69d4;
+    padding: 16px 27px;
+    color: white;
+    font-weight: 700;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+.hero-section .hero-info .cta-btn:hover{
+  background-color: #0653b6;
+}
+
+/*------------ Hero section END------------- */
+
+/*------------ Hero section 2 start------------- */
+
+.hero-section2 {
+    position: relative;
+    margin-top: 35px;
+}
+
+.hero-info2 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 74px;
+    transform: translateY(-50%);
+
+}
+
+.hero-info2 h4 {
+    font-size: 21px;
+}
+
+.hero-info2 h1 {
+    font-size: 130px;
+    font-weight: 300;
+    line-height: 130px;
+}
+
+.hero-info2 h3 {
+    font-size: 32px;
+    font-weight: 400;
+
+}
+
+.hero-section2 .cta-btn2{
+    background: transparent;
+    padding: 15px 43px;
+    margin-top: 18px;
+    border-radius: 3px;
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+    outline: 1px solid white;
+    display: inline-block;
+
+}
+
+.hero-section2 .cta-btn2:hover{
+   outline: 3px solid white;
+}
+
+
+
+/*------------ Hero section 2 end------------- */
+
+/*----- middle tittle section start------------ */
+.mid-section {
+    width: 100%;
+   margin-top: 20px;
+}
+
+.mid-section h4 {
+
+    text-align: center;
+    color: #666666;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 2.8px;
+    font-weight: 800;
+}
+
+.mid-section h1{
+    text-align: center;
+    font-size: 61px;
+    font-weight: 300;
+    color: #262626;
+    line-height: 110px;
+}
+
+.mid-section .row-container .box1{
+  
+    width: 300px;
+    text-align: center;
+    height: 270px;
+   
+}
+
+.mid-section .row-container .box1 h3{
+    font-size: 26px;
+    font-weight: 500;
+    color: #262626;
+}
+
+.mid-section .row-container .button{
+    background: transparent;
+    padding: 15px 32px;
+    margin-top: 50px;
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 2px;
+    outline: 1px solid black;
+}
+.mid-section .row-container .button:hover{
+    outline: 2px solid black;
+}
+
+.row-container{
+   
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+/*----- middle tittle section end------------ */
+
+/* -------------Image section start*-------------*/
+
+.image-section img{
+    width: 100%;
+    
+}
+
+.image-section{
+    position: relative;
+    margin-top: 30px;
+}
+
+.image-section .image-info{
+    color: white;
+    position: absolute;
+    top: 38%;
+    transform: translateY(-50%);
+    margin-left: 74px;
+    width: 600px;
+    
+}
+
+.image-section h4{
+    font-size: 47px;
+    font-weight: 300;
+}
+
+.image-section .image-info h4{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.image-section .image-info h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.image-section .image-info .cta-btn3{
+    display: inline-block;
+    font-weight: 800;
+    background-color: #1c69d4;
+    color: white;
+    padding: 16px 68px;
+    font-size: 19px;
+    border-radius: 3px;
+    margin-top: 10px;
+    transition: background-color ease 0.1s;
+}
+
+.image-section .image-info .cta-btn3:hover{
+    background-color: #0653b6;
+}
+
+.image-section .image-info .cta-btn4{
+    display: block;
+    font-weight: 800;
+    width: 295px;
+    background-color: #4d4d4d;
+    color: white;
+    padding: 16px 64px;
+    font-size: 19px;
+    border-radius: 3px;
+    margin-top: 10px;
+    transition: background-color ease 0.1s;
+}
+
+.image-section .image-info .cta-btn4:hover{
+    background-color: #262626;
+}
+
+/* -------------Image section end*-------------*/
+
+/* -------------card section start*-------------*/
+
+
+.card-section img{
+    width: 650px;
+}
+
+.card-section .card{
+    padding: 0 90px;
+    margin: 35px 0 60px 0;
+    display: flex;
+    position: relative;
+}
+
+.card-section .card-info{
+    position: absolute;
+    bottom: 0%;
+    right:1%;
+}
+
+.card-section .card-info h3{
+    color: #666666;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 2.8px;
+    font-weight: 800;
+}
+
+.card-section .card-info h2{
+    font-size: 48px;
+    font-weight: 400;
+    color: #262626;
+}
+
+.card-section .card-info h5{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #262626;
+}
+
+.card-section .card-info .card-btn{
+    padding: 13px 44px;
+    color: black;
+    font-size: 21px;
+    font-weight: 800;
+    outline: 1px solid #262626;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.card-section .card-info .card-btn:hover {
+   outline: 2px solid #262626;
+}
+
+/* card section 2 */
+
+.card-section2 img{
+    width: 650px;
+}
+.card-section2{
+    border-bottom: 1px solid #b6b5b5;
+}
+
+.card-section2 .card{
+    padding: 0 90px;
+    margin: 35px 0 60px 0;
+    display: flex;
+    position: relative;
+    
+}
+
+.card-section2 .card-info2{
+    position: absolute;
+    bottom: 0%;
+    right: 7%;
+}
+.card-section2 .card-info2 h3{
+    color: #666666;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 2.8px;
+    font-weight: 800;
+}
+
+.card-section2 .card-info2 h2{
+    font-size: 48px;
+    font-weight: 400;
+    color: #262626;
+}
+
+.card-section2 .card-info2 h5{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #262626;
+}
+
+.card-section2 .card-info2 .card-btn{
+    padding: 13px 44px;
+    color: black;
+    font-size: 21px;
+    font-weight: 800;
+    outline: 1px solid #262626;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.card-section2 .card-info2 .card-btn:hover {
+   outline: 2px solid #262626;
+}
+
+/* -------------card section end*-------------*/
+
+.text-div h5{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 32px 0 0 80px;
+}
+
+.text-div h5 a{
+    font-size: 18px;
+    margin-left: 28px;
+    font-weight: 800;
+    color: #262626;
+}
+
+.text-div h5 a:hover{
+    color: #1c69d4;
+}
+ /*------- Footer section start---------- */
+footer{
+    background-color: rgb(242 242 255);
+}
+footer .footer-section{
+    width: 86%;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    margin: 30px 57px;
+}
+
+footer .footer-section a{
+    font-size: 16px;
+    font-weight: 800;
+    color: #4d4d4d;
+    line-height: 35px;
+}
+
+footer .footer-section .foot-1 li:first-child a{
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 2px;
+}
+
+footer .footer-section .foot-2 li:first-child a{
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 2px;
+}
+footer .footer-section .foot-3 li:first-child a{
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 2px;
+}
+
+footer .footer-section .foot-4 li:first-child a{
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 2px;
+}
+
+ /*------- Footer section end---------- */
+
+/* footer icon section start */
+
+footer .icon-Display {
+    width: 250px;
+    margin-left: 60px;
+    
+}
+footer .icon-Display img{
+  width: 50%;
+}
+
+footer .icon-Display ul{
+    display: flex;
+}
+
+/*-------- Bottom footer start-------- */
+
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 64px;
+    height: 67px;
+
+}
+
+.bottom-footer h6{
+ font-size: 12px;
+ font-weight: 400;
+}
+
+.bottom-footer ul{
+    display: flex;
+    
+
+}
+    .bottom-footer ul li a{
+        font-size: 14px;
+        font-weight: 700;
+        color: black;
+        margin: 0 10px;
+    }
+
+    /*-------- Bottom footer end-------- */
+
